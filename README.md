@@ -48,6 +48,34 @@ To ensure meaningful insights, the following steps were taken to clean the data:
 
 ### ANALYSIS
 
+1. **Total Sales**:
+   
+   The overall revenue generated from all items sold. I calculated the 'Total Sales' by **summing** all the values in the Sales column.
+
+   ```dax
+   Total Sales = SUM('BlinkIT Grocery Data'[Sales])
+   ```
+
+2. **Average Sales**:
+  
+   The average revenue per sale. I calculated the 'Average Sales' by 
+
+
+   ```dax
+   Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
+   ```
+
+5. **Number of Items**: The total count of different items sold.
+
+   ```dax
+   No of Items = COUNTROWS('BlinkIT Grocery Data')
+   ```
+
+6. **Average Rating**: The average customer rating for items sold.
+
+   ```dax
+   Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
+   ```
 
 
 ### INSIGHTS
