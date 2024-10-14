@@ -29,7 +29,7 @@ This analysis was performed using **Power BI**, leveraging its powerful visualiz
 
 ### DATA SOURCE
 
-The data was sourced from Kaggle, which provides various fictitious datasets for portfolio projects. This specific dataset contains detailed records of grocery sales, including:
+The data was sourced from Kaggle.com, which provides various fictitious datasets for portfolio projects. This specific dataset contains detailed records of grocery sales, including:
 
 - **Product Information**: Item type, fat content, visibility, and weight.
 - **Outlet Information**: Size, type, location, and establishment year.
