@@ -74,12 +74,13 @@ To ensure meaningful insights, the following steps were taken to clean the data:
 
 4. **Average Rating**:
   
-   The average customer rating for items sold. I calculated the 'average rating' by taking the **mean** of all values in the Rating column. It provides insight into the overall customer satisfaction with the products sold. This measure is used in Power BI to display the average rating KPI card on the dashboard, helping monitor customer feedback and product performance.
+   The average customer rating for items sold. I calculated the 'Average Rating' by taking the **mean** of all values in the Rating column. It provides insight into the overall customer satisfaction with the products sold. This measure is used in Power BI to display the average rating KPI card on the dashboard, helping monitor customer feedback and product performance.
 
    ```dax
    Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
    ```
 
+I created a **field metrics** group using the measures Total Sales, Avg Sales, No of Items, and Avg Rating. This helped me efficiently build visualization charts, such as bar charts, line charts, providing a comprehensive view of sales performance and customer satisfaction.
 
 ### INSIGHTS
 
