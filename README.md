@@ -11,6 +11,9 @@ This project explores the sales performance of 'Blinkit', an online grocery shop
 - [Data Cleaning](#data-cleaning)
 - [Analysis](#analysis)
 - [Insights](#insights)
+- [Recommendations](#recommendations)
+
+---
 
 ## PROJECT OVERVIEW
 
@@ -35,7 +38,7 @@ The data was sourced from Kaggle.com. The website has various fictitious dataset
 - **Outlet Information**: Size, type, location, and establishment year.
 - **Sales Metrics**: Individual sales records and customer ratings.
 
-The dataset originally had 12 columns, 8523 rows, and consists of employees’ details from 2000 to 2020.
+The dataset originally had 12 columns, 8523 rows.
 
 ---
 
@@ -47,6 +50,8 @@ To ensure meaningful insights, the following steps were taken to clean the data:
 - **Normalization**: Item visibility values were normalized to correct outliers.
 - **Format Corrections**: Date formats were validated, and categorical values were standardized.
 - **Data Filtering**: Outliers in the sales column were removed to prevent skewing the analysis.
+
+---
 
 ## ANALYSIS
 
@@ -87,10 +92,13 @@ I used DAX measures in Power BI to create these KPI cards, offering quick insigh
    ```dax
    Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
    ```
+<br>
 
 ### VISUALIZATION CHARTS
 
 I created a **field metrics** group using the **measures** Total Sales, Avg Sales, No of Items, and Avg Rating. This helped me efficiently build visualization charts, such as bar charts, line charts, providing a comprehensive view of sales performance and customer satisfaction.
+
+<br>
 
 **1. Line Chart** – Sales by Establishment Year
 
@@ -98,15 +106,15 @@ I created a line chart to analyze the sales trend by outlet establishment year. 
 
 **2. Donut Chart** – Outlet Size Contribution
 
-This chart shows the contribution of small, medium, and high-sized outlets to total sales. **Medium** outlets emerged as the highest contributors with **37.01%** of total sales.
+This chart shows the contribution of small, medium, and high-sized outlets to total sales. **Medium** outlets emerged as the highest contributors with **42.27%** of total sales.
 
 **3. Stacked Bar Chart** – Outlet Location Performance
 
-I used a stacked bar chart to compare sales across Tier 1, Tier 2, and Tier 3 locations. The chart shows that **Tier 3** locations contributed the most, generating **$472.13K** in revenue.
+I used a stacked bar chart to compare sales across Tier 1, Tier 2, and Tier 3 locations. The chart shows that **Tier 3** locations contributed the most, generating **$4,72,133** in revenue.
 
 **4. Bar Chart** – Item Type Performance
 
-This chart displays the performance of different product categories. Categories like **Fruits & Vegetables** and **Snack Foods** led the sales, each contributing **$0.18M**.
+This chart displays the performance of different product categories. Categories like **Fruits & Vegetables** and **Snack Foods** led the sales, each contributing **$1**.
 
 **5. Matrix** – Outlet and Product Summary
 
@@ -115,6 +123,8 @@ I created a matrix to show a **detailed summary** of sales metrics by outlet typ
 **6. Donut Chart** – Fat Content Sales Breakdown
 
 I used this chart to show the proportion of sales between Regular and Low-Fat items. **Regular** items dominate the sales, contributing **$0.77M** compared to **$0.42M** from **low-fat** items.
+
+---
 
 ### INSIGHTS
 
@@ -129,6 +139,8 @@ I used this chart to show the proportion of sales between Regular and Low-Fat it
 5. **Sales Trends**: Sales have increased steadily over the years, with a significant spike after **2015**, reflecting potential business expansion or increased demand.
     
 6. **Visibility Influence**: Items with moderate visibility tend to have higher sales, indicating that both over- and under-exposure can affect performance negatively.
+
+---
 
 ### RECOMMENDATIONS
 
