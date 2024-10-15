@@ -50,7 +50,7 @@ To ensure meaningful insights, the following steps were taken to clean the data:
 
 1. **Total Sales**:
    
-   The overall revenue generated from all items sold. I calculated the 'Total Sales' by **summing** all the values in the Sales column.
+   The overall revenue generated from all items sold. I calculated the 'Total Sales' by **summing** all the values in the Sales column. It adds up the revenue generated from each transaction, providing the overall sales figure across all products and outlets. This measure is used in Power BI to display the total sales KPI card on the dashboard.
 
    ```dax
    Total Sales = SUM('BlinkIT Grocery Data'[Sales])
@@ -58,20 +58,23 @@ To ensure meaningful insights, the following steps were taken to clean the data:
 
 2. **Average Sales**:
   
-   The average revenue per sale. I calculated the 'Average Sales' by 
-
+   The average revenue per sale. I calculated the 'Average Sales' by taking the **mean** of all values in the Sales column. It provides insight into the typical revenue generated per transaction, helping to evaluate the average spending pattern of customers. This measure is used in Power BI to display the average sales KPI card on the dashboard.
 
    ```dax
    Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
    ```
 
-5. **Number of Items**: The total count of different items sold.
+3. **Number of Items**:
+
+    The total count of different items sold. I calculated the 'No of Items' by **counting** the number of rows in the 'BlinkIT Grocery Data' table, it represents the total number of items or transactions recorded in the dataset. Each row corresponds to a specific product sold, helping to quantify the overall volume of transactions. This measure is used in Power BI to display the no of items KPI card on the dashboard.
 
    ```dax
    No of Items = COUNTROWS('BlinkIT Grocery Data')
    ```
 
-6. **Average Rating**: The average customer rating for items sold.
+4. **Average Rating**:
+  
+   The average customer rating for items sold. I calculated the 'average rating' by taking the **mean** of all values in the Rating column. It provides insight into the overall customer satisfaction with the products sold. This measure is used in Power BI to display the average rating KPI card on the dashboard, helping monitor customer feedback and product performance.
 
    ```dax
    Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
