@@ -59,72 +59,74 @@ To address the key objectives of this project, I created KPI cards and visualiza
 
 ### KPI CARDS
 
-I used DAX measures in Power BI to create these KPI cards, offering quick insights into key metrics like total sales, average transaction value, items sold, and customer ratings.
+I used **DAX measures** in Power BI to create these KPI cards, offering quick insights into key metrics like total sales, average transaction value, items sold, and customer ratings.
 
-1. **Total Sales**:
+1. **Total Sales**: ($1M)
    
-   The overall revenue generated from all items sold. I calculated the 'Total Sales' by **summing** all the values in the Sales column. It adds up the revenue generated from each transaction, providing the overall sales figure across all products and outlets. This measure is used in Power BI to display the total sales KPI card on the dashboard.
+   The overall revenue generated from all items sold. I calculated the 'Total Sales' measure by **summing** all the values in the Sales column. It adds up the revenue generated from each transaction, providing the overall sales figure across all products and outlets. This measure is used in Power BI to display the total sales KPI card on the dashboard which gives a quick view of the company’s total income.
 
    ```dax
    Total Sales = SUM('BlinkIT Grocery Data'[Sales])
    ```
 
-2. **Average Sales**:
+2. **Average Sales**: ($141)
   
-   The average revenue per sale. I calculated the 'Average Sales' by taking the **mean** of all values in the Sales column. It provides insight into the typical revenue generated per transaction, helping to evaluate the average spending pattern of customers. This measure is used in Power BI to display the average sales KPI card on the dashboard.
+   The average revenue per sale. I calculated the 'Average Sales' measure by taking the **mean** of all values in the Sales column. It provides insight into the typical revenue generated per transaction, helping to evaluate the average spending pattern of customers. This measure is used in Power BI to display the average sales KPI card on the dashboard.
 
    ```dax
    Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
    ```
 
-3. **Number of Items**:
+3. **Number of Items**: (8523)
 
-    The total count of different items sold. I calculated the 'No of Items' by **counting** the number of rows in the 'BlinkIT Grocery Data' table, it represents the total number of items or transactions recorded in the dataset. Each row corresponds to a specific product sold, helping to quantify the overall volume of transactions. This measure is used in Power BI to display the no of items KPI card on the dashboard.
+    The total count of different items sold. I calculated the 'No of Items' measure by **counting** the number of rows in the 'BlinkIT Grocery Data' table, it represents the total number of items or transactions recorded in the dataset. Each row corresponds to a specific product sold, helping to quantify the overall volume of transactions. This measure is used in Power BI to display the no of items KPI card on the dashboard.
 
    ```dax
    No of Items = COUNTROWS('BlinkIT Grocery Data')
    ```
 
-4. **Average Rating**:
+4. **Average Rating**: (3.9)
   
-   The average customer rating for items sold. I calculated the 'Average Rating' by taking the **mean** of all values in the Rating column. It provides insight into the overall customer satisfaction with the products sold. This measure is used in Power BI to display the average rating KPI card on the dashboard, helping monitor customer feedback and product performance.
+   The average customer rating for items sold. I calculated the 'Average Rating' measure by taking the **mean** of all values in the Rating column. It provides insight into the overall customer satisfaction with the products sold. This measure is used in Power BI to display the average rating KPI card on the dashboard, helping monitor customer feedback and product performance.
 
    ```dax
    Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
    ```
 <br>
 
-### VISUALIZATION CHARTS
+### CHARTS
 
 I created a **field metrics** group using the **measures** Total Sales, Avg Sales, No of Items, and Avg Rating. This helped me efficiently build visualization charts, such as bar charts, line charts, providing a comprehensive view of sales performance and customer satisfaction.
 
 <br>
 
-**1. Line Chart** – Sales by Establishment Year
+**1. Line Chart**  
+- Sales by Establishment Year.
+- I created a line chart to analyze the sales trend by outlet establishment year. This chart reveals how sales performance evolved over time, peaking around **2018**.
 
-I created a line chart to analyze the sales trend by outlet establishment year. This chart reveals how sales performance evolved over time, peaking around **2018**.
+**2. Donut Chart** 
+- Outlet Size Contribution.
+- This chart shows the contribution of small, medium, and high-sized outlets to total sales. **Medium** outlets emerged as the highest contributors with **42.27%** of total sales.
 
-**2. Donut Chart** – Outlet Size Contribution
+**3. Stacked Bar Chart** 
+- Outlet Location Performance.
+- I used a stacked bar chart to compare sales across Tier 1, Tier 2, and Tier 3 locations. The chart shows that **Tier 3** locations contributed the most, generating **$472K** in revenue.
 
-This chart shows the contribution of small, medium, and high-sized outlets to total sales. **Medium** outlets emerged as the highest contributors with **42.27%** of total sales.
+**4. Bar Chart**  
+- Item Type Performance.
+- This chart displays the performance of different product categories. **Fruits and Vegetables** generated the highest sales at **$178K**, closely followed by **Snack Foods** at **$175K**, while **Seafood** had the lowest contribution at **$9K**.
 
-**3. Stacked Bar Chart** – Outlet Location Performance
+**5. Matrix** 
+- Outlet and Product Summary.
+- I created a matrix to show a **detailed summary** of sales metrics by outlet type. This matrix includes total sales, number of items, average sales, average rating, and item visibility, offering a comprehensive view of outlet-level performance.
 
-I used a stacked bar chart to compare sales across Tier 1, Tier 2, and Tier 3 locations. The chart shows that **Tier 3** locations contributed the most, generating **$4,72,133** in revenue.
-
-**4. Bar Chart** – Item Type Performance
-
-This chart displays the performance of different product categories. Categories like **Fruits & Vegetables** and **Snack Foods** led the sales, each contributing **$1**.
-
-**5. Matrix** – Outlet and Product Summary
-
-I created a matrix to show a **detailed summary** of sales metrics by outlet type. This matrix includes total sales, number of items sold, average sales, average rating, and item visibility, offering a comprehensive view of outlet-level performance.
-
-**6. Donut Chart** – Fat Content Sales Breakdown
-
-I used this chart to show the proportion of sales between Regular and Low-Fat items. **Regular** items dominate the sales, contributing **$0.77M** compared to **$0.42M** from **low-fat** items.
+**6. Donut Chart**  
+- Fat Content Sales Breakdown.
+- I used this chart to show the proportion of sales between Regular and Low-Fat items. **Low Fat** items dominate the sales, contributing **$776K** compared to **$425K** from **Regular** items.
 
 ---
+
+<br>
 
 ### INSIGHTS
 
