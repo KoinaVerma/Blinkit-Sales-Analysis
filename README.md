@@ -1,4 +1,4 @@
-# Blinkit sales analysis
+# Blinkit Sales Analysis
 
 This project explores the sales performance of 'Blinkit', an online grocery shopping store. The goal is to gain insights into various sales aspects, including product category performance, outlet behavior, and revenue generation patterns. By analyzing key metrics and trends, the project provides recommendations to optimize operations and sales strategies.
 
