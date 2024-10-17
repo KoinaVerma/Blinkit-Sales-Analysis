@@ -119,6 +119,16 @@ I created a **field metrics** group using the **measures** Total Sales, Avg Sale
 - Fat Content Sales Breakdown.
 - I used this chart to show the proportion of sales between Regular and Low-Fat items. **Low Fat** items dominate the sales, contributing **$776K** compared to **$425K** from **Regular** items.
 
+<img width="524" alt="Blinkit Dashboard" src="https://github.com/user-attachments/assets/ae29caa4-188b-4c89-9137-9b859f0e80b7">
+
+
+
+
+
+
+
+
+
 ---
 
 <br>
