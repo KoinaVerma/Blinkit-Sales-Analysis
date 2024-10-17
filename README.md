@@ -32,13 +32,13 @@ This analysis was performed using **Power BI**, leveraging its powerful visualiz
 
 ## DATA SOURCE
 
-The data was sourced from Kaggle.com. The website has various fictitious datasets for data projects. This specific dataset contains detailed records of grocery sales, including:
+The data was sourced from Kaggle.com. The website has various fictitious datasets for data projects. The dataset used for this analysis is structured in CSV format. It consists of 12 columns, 8523 rows. This specific dataset contains detailed records of grocery sales, including:
 
 - **Product Information**: Item type, fat content, visibility, and weight.
 - **Outlet Information**: Size, type, location, and establishment year.
 - **Sales Metrics**: Individual sales records and customer ratings.
 
-The dataset originally had 12 columns, 8523 rows.
+
 
 ---
 
