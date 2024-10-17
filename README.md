@@ -123,18 +123,7 @@ I created a **field metrics** group using the **measures** Total Sales, Avg Sale
 
 <img width="878" alt="Blinkit Dashboard" src="https://github.com/user-attachments/assets/fef7f2ef-ae7d-470b-bcc6-ac74583cc2ec">
 
-
-
-
-
-
-
-
-
-
-
----
-
+<br>
 <br>
 
 ## INSIGHTS
