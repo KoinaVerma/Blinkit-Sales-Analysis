@@ -43,7 +43,9 @@ The data was sourced from Kaggle.com, which offers a range of fictitious dataset
 
 ## DATA CLEANING
 
-After importing the data into Power BI, I checked for discrepancies, starting with verifying that all **data types** were correct. I then used the column distribution and column quality features to look for any **duplicates** or **empty values**, and found none. However, I noticed an issue in the **'Item Fat Content'** column, where values were inconsistently entered as "Low Fat," "LF," "Regular," and "reg." Since "LF" and "reg" were meant to represent "Low Fat" and "Regular," respectively, I used the **Power Query Editor** to standardize the values by replacing "LF" with "Low Fat" and "reg" with "Regular."
+After importing the data into Power BI, I checked for discrepancies, starting with verifying that all **data types** were correct. I then used the column distribution and column quality features to look for any **duplicates** or **empty values**, and found none. However, I noticed an issue in the **'Item Fat Content'** column, where values were inconsistently entered as "Low Fat," "LF," "Regular," and "reg." 
+
+Since "LF" and "reg" were meant to represent "Low Fat" and "Regular," respectively, I used the **Power Query Editor** to standardize the values by replacing "LF" with "Low Fat" and "reg" with "Regular."
 
 
 ---
