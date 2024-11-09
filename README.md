@@ -2,7 +2,7 @@
 
 This project explores the **sales performance** of 'Blinkit', an online grocery shopping store. The goal is to gain insights into various sales aspects, including **product category performance**, **outlet behavior**, and **revenue generation patterns**. By analyzing key metrics and trends, the project provides recommendations to optimize operations and sales strategies.
 
-This analysis was performed using **Power BI**, leveraging its powerful visualization capabilities and DAX (Data Analysis Expressions) for KPI creation.
+This analysis was performed using **Power BI**, leveraging its powerful **visualization** capabilities and **DAX** (Data Analysis Expressions) for **KPI** creation.
 
 ---
 
@@ -22,10 +22,10 @@ This analysis was performed using **Power BI**, leveraging its powerful visualiz
 
 The primary objective of this project is to address the following questions:
 
-- What is the total sales generated across different outlets?
-- Which product categories and outlet types contribute the most to revenue?
-- How does outlet size, location, and establishment year affect sales?
-- What trends in sales performance can be observed, and what strategies can be recommended to improve revenue?
+- What is the **total sales** generated across different outlets?
+- Which **product categories** and **outlet types** contribute the most to revenue?
+- How does **outlet size**, **location**, and **establishment year** affect sales?
+- What **trends in sales performance** can be observed, and what **strategies** can be recommended to improve revenue?
 
 This analysis will assist in decision-making processes related to product offerings, store management, and marketing strategies to enhance sales performance.
 
